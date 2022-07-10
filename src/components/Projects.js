@@ -28,9 +28,10 @@ const items = [
     text: 'An interactive, real-time job search tool to find jobs for JavaScript developers by location. Custom search in any US state to apply to hundreds of jobs plotted to the map in multiple view modes.',
     tools: ['Node.Js', 'Express', 'MongoDB', 'Ejs', 'JS', 'CSS'],
     link: {
-      github: '',
+      github: null,
       website: 'https://www.bookeet.co.il/'
-    }
+    },
+    image: '/bookeet.png'
   },
   {
     name: 'Twitter clone',
@@ -58,7 +59,7 @@ const items = [
     text: 'An interactive, real-time job search tool to find jobs for JavaScript developers by location. Custom search in any US state to apply to hundreds of jobs plotted to the map in multiple view modes.',
     tools: ['Node.Js', 'Express', 'MongoDB', 'Ejs', 'JS'],
     link: {
-      tools: ['Node.Js', 'Express', 'MongoDB', 'Ejs', 'JS', 'CSS'],
+      github: '',
     }
   },
 ]
