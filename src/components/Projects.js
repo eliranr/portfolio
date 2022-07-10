@@ -29,7 +29,7 @@ const items = [
     tools: ['Node.Js', 'Express', 'MongoDB', 'Ejs', 'JS', 'CSS'],
     link: {
       github: '',
-      website: 'a'
+      website: 'https://www.bookeet.co.il/'
     }
   },
   {
@@ -38,8 +38,10 @@ const items = [
     text: 'An interactive, real-time job search tool to find jobs for JavaScript developers by location. Custom search in any US state to apply to hundreds of jobs plotted to the map in multiple view modes.',
     tools: ['ReactJS', 'next.js', 'recoil', 'fireBase', 'Tailwind CSS'],
     link: {
-      github: '',
-    }
+      github: 'https://github.com/eliranr/twitter',
+      website: 'https://twitter.eliran.tech/'
+    },
+    image: '/twitter.png'
   },
   {
     name: 'Poker God',

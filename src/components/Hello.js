@@ -77,7 +77,7 @@ export default function Hello({contact, setContact}) {
             Hi There!<br/>
             I'm <span className='text-blue-600'>Eliran Rosetsky{contact}</span>
           </div>
-          <div className='text-[25px] font-bold h-full flex space-x-[4.5px] pt-12 items-start overflow-x-hidden'>
+          <div className='text-[22px] md:text-[25px] font-bold h-full flex space-x-[4.5px] pt-12 items-start overflow-x-hidden'>
             <span>A</span>
             <div className="text-blue-600">
               {texts2[currentWord]}

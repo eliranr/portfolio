@@ -30,8 +30,16 @@ export default function Pro({ data }) {
                     </div>
                 </div>
             </div>
-            <div className='w-full sm:w-[45%] flex justify-center p-5 pt-0 sm:px-0 sm:p-0'>
-                <img className='object-cover rounded-b-2xl sm:rounded-l-sm sm:rounded-r-2xl' src='https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80' />
+            <div className='w-full sm:w-[45%] flex justify-center p-5 pt-0 sm:px-0 sm:p-0 '>
+                <img
+                    className='object-cover rounded-b-2xl sm:rounded-l-sm sm:rounded-r-2xl border-2 border-gray-100' 
+                    src={`${process.env.PUBLIC_URL}/images/${data.image}`}
+                    alt="project-image"
+                    onError={({ currentTarget }) => {
+                        currentTarget.onerror = null; // prevents looping
+                        currentTarget.src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80";
+                    }}
+                />
             </div>
         </div>
     </div>
