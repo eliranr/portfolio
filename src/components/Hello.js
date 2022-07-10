@@ -46,7 +46,7 @@ export default function Hello({contact, setContact}) {
 
 
   return (
-      <div className='flex items-center justify-center md:space-x-10 h-[calc(100vh-86px)] min-h-[400px] mb-5'  id='contact'>
+      <div className='flex items-center justify-center md:space-x-10 h-[calc(100vh-86px)] min-h-[400px] mb-5 relative'>
         <motion.div
           className='hidden md:block'
           initial={{ opacity: 0, x: -100 }}
@@ -100,7 +100,7 @@ export default function Hello({contact, setContact}) {
                 {texts.map((word, index) => (
                   index === currentWord
                   ? (<motion.div
-                      className="text-blue-600  relative top-[2px] left-1"
+                      className="text-blue-600 relative top-[2px] left-1"
                       initial='offscreen'
                       animate="onscreen"
                       exit="exit"
@@ -125,6 +125,19 @@ export default function Hello({contact, setContact}) {
             CONTACT ME
           </button>
         </motion.div>
+
+        <div className="md:hidden flex flex-col items-center absolute bottom-4 right-0">
+          <a className="hoverEffect" href="https://github.com/eliranr" target='_blank'>
+            <img className='w-6' src={'https://cdn.iconscout.com/icon/free/png-256/github-3660031-3094495.png'} />
+          </a>
+          <a className="hoverEffect">
+            <img className='w-6 relative top-[2px]' src={'https://cdn.iconscout.com/icon/free/png-256/logo-3660043-3094477.png'} />
+          </a>
+          <a className="hoverEffect" href="https://www.linkedin.com/in/eliranr/" target='_blank'>
+            <img className='w-6' src={'https://cdn.iconscout.com/icon/free/png-256/linkedin-3660036-3094470.png'} />
+          </a>
+        </div>
+
       </div>
   )
 }
