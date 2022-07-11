@@ -126,7 +126,7 @@ export default function Hello({contact, setContact}) {
           </button>
         </motion.div>
 
-        <div className="md:hidden flex flex-col items-center absolute bottom-4 right-0">
+        <div className="md:hidden flex flex-col items-center absolute bottom-[60px] right-0">
           <a className="hoverEffect" href="https://github.com/eliranr" target='_blank'>
             <img className='w-6' src={'https://cdn.iconscout.com/icon/free/png-256/github-3660031-3094495.png'} />
           </a>
