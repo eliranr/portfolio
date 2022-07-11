@@ -3,8 +3,6 @@ import Pro from './Pro';
 import { motion } from "framer-motion";
 
 export default function Projects() {
-  const { name: firstName} = 'aaa';
-  console.log(firstName);
   return (
     <div className='text-center mb-10' id='projects'>
         <h2 className='text-[27px] mb-[80px]'>My Projects</h2>

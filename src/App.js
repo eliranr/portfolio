@@ -6,6 +6,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { BrowserRouter } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
+
 
 function App() {
   const [contact, setContact] = useState(true);
@@ -38,7 +40,21 @@ function App() {
         setMove(false);
       }
     }
-  }, [scrollPosition])
+  }, [scrollPosition]);
+
+
+  const [ip, setIP] = useState('');
+
+  const getData = async () => {
+    const res = await axios.get('https://geolocation-db.com/json/')
+    setIP(res.data.IPv4)
+  }
+  
+  useEffect( () => {
+    getData()
+  }, [])
+
+  
 
   return (
     <BrowserRouter>
@@ -54,6 +70,7 @@ function App() {
           <Projects />
           
           <Footer />
+          <h1>{ip}</h1>
         </main>
       </div>
     </BrowserRouter>
