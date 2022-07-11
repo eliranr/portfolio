@@ -24,8 +24,8 @@ export default function Projects() {
 const items = [
   {
     name: 'Bookeet',
-    exp: 'Appointment app', 
-    text: 'An interactive, real-time job search tool to find jobs for JavaScript developers by location. Custom search in any US state to apply to hundreds of jobs plotted to the map in multiple view modes.',
+    exp: 'Business management app', 
+    text: 'The system includes: registering a new business, managing an appointment diary And customer management, viewing reports and summaries of information, a notification system for the business owner through Flutter, Customer SMS System (Queue Reminder, Change Alerts).',
     tools: ['Node.Js', 'Express', 'MongoDB', 'Ejs', 'JS', 'CSS'],
     link: {
       github: null,
@@ -36,7 +36,7 @@ const items = [
   {
     name: 'Twitter clone',
     exp: 'Created for learning purposes', 
-    text: 'An interactive, real-time job search tool to find jobs for JavaScript developers by location. Custom search in any US state to apply to hundreds of jobs plotted to the map in multiple view modes.',
+    text: 'Customer registration via Google account, publishing posts with photos, likes system, comments system.',
     tools: ['ReactJS', 'next.js', 'recoil', 'fireBase', 'Tailwind CSS'],
     link: {
       github: 'https://github.com/eliranr/twitter',
@@ -54,12 +54,14 @@ const items = [
     }
   },
   {
-    name: 'Giraf',
+    name: 'Giraffe',
     exp: 'Monitoring construction plans', 
     text: '',
     tools: ['Node.Js', 'Express', 'MongoDB', 'Ejs', 'JS'],
     link: {
-      github: '',
-    }
+      github: 'https://github.com/eliranr/giraf',
+      website: 'https://giraffe1.herokuapp.com'
+    },
+    image: '/giraf.png'
   },
 ]

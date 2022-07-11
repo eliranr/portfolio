@@ -9,10 +9,10 @@ export default function Pro({ data }) {
                     <h1 className='text-xl font-bold'>{data.name}</h1>
                     <h1 className='text-lg'>{data.exp}</h1>
                 </div>
-                <p className=''>
+                <p className='text-sm'>
                     {data.text}
                 </p>
-                <div className='flex flex-wrap items-center justify-between mt-4 mb-1'>
+                <div className='flex flex-wrap items-center justify-between mt-4 mb-1 sm:mb-0'>
                     <div className='flex flex-wrap'>
                         <p className='boten  flex flex-wrap'>
                             {data.tools.map((tool) => <span key={tool} className='m-[1.5px]'>{tool}</span>)}
