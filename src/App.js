@@ -70,7 +70,6 @@ function App() {
           <Projects />
           
           <Footer />
-          <h1>{ip}</h1>
         </main>
       </div>
     </BrowserRouter>
