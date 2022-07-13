@@ -59,15 +59,16 @@ export default function Menu({menu, setMenu, setMove, setContact, move}) {
             
           </ul>
           <div className="hidden space-x-5 md:flex xl:space-x-10  items-center">
+            <a className="hoverEffect" href="https://www.linkedin.com/in/eliranr/" target='_blank'>
+              <img className='w-6' src={'https://cdn.iconscout.com/icon/free/png-256/linkedin-3660036-3094470.png'} />
+            </a>
             <a className="hoverEffect" href="https://github.com/eliranr" target='_blank'>
               <img className='w-6' src={'https://cdn.iconscout.com/icon/free/png-256/github-3660031-3094495.png'} />
             </a>
             <a className="hoverEffect">
-              <img className='w-6 relative top-[2px]' src={'https://cdn.iconscout.com/icon/free/png-256/logo-3660043-3094477.png'} />
+              <img className='w-6' src={'https://cdn.iconscout.com/icon/free/png-256/paper-421-432127.png'} />
             </a>
-            <a className="hoverEffect" href="https://www.linkedin.com/in/eliranr/" target='_blank'>
-              <img className='w-6' src={'https://cdn.iconscout.com/icon/free/png-256/linkedin-3660036-3094470.png'} />
-            </a>
+            
           </div>
       </div>
     </div>

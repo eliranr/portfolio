@@ -47,16 +47,17 @@ const items = [
   {
     name: 'Poker God',
     exp: 'Automation for poker player', 
-    text: 'An interactive, real-time job search tool to find jobs for JavaScript developers by location. Custom search in any US state to apply to hundreds of jobs plotted to the map in multiple view modes.',
-    tools: ['Python'],
+    text: 'The program calculates the cash ratio and the card ratio, And then deciding which action to make Call / Fold / Check. Useing image analysis with tensorflow.',
+    tools: ['Python', 'tensorflow'],
     link: {
-      github: '',
-    }
+      github: 'https://github.com/eliranr/poker_god',
+    },
+    image: '/win.png'
   },
   {
     name: 'Giraffe',
     exp: 'Monitoring construction plans', 
-    text: '',
+    text: 'Tracking construction plans in the field, finding contacts, viewing approvals, creating and uploading files',
     tools: ['Node.Js', 'Express', 'MongoDB', 'Ejs', 'JS'],
     link: {
       github: 'https://github.com/eliranr/giraf',
