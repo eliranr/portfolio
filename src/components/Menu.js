@@ -65,7 +65,7 @@ export default function Menu({menu, setMenu, setMove, setContact, move}) {
             <a className="hoverEffect" href="https://github.com/eliranr" target='_blank'>
               <img className='w-6' src={'https://cdn.iconscout.com/icon/free/png-256/github-3660031-3094495.png'} />
             </a>
-            <a className="hoverEffect">
+            <a className="hoverEffect" href="https://eliran.tech/files/Eliran Rosetsky cv.pdf" target='_blank'>
               <img className='w-6' src={'https://cdn.iconscout.com/icon/free/png-256/paper-421-432127.png'} />
             </a>
             
